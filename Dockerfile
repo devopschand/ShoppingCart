@@ -1,2 +1,2 @@
-FROM docker.io/library/tomcat:8.0.20-jre8
-COPY /app/target/*.war  /usr/local/tomcat/webapps/
+FROM docker.io/library/tomcat:latest
+COPY target/*.war  /usr/local/tomcat/webapps/
