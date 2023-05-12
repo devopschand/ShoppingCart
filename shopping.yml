@@ -14,7 +14,7 @@ spec:
         spec:
           containers:
           - name: flipkartapp
-            image: devopschand/shopping
+            image: devopschand/shopping:IMAGE_TAG
             ports:
             - containerPort: 8080
             resources:
